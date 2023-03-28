@@ -10,9 +10,9 @@ https://oauth.net/2/pkce/
 
 ## Endpoints
 
-* Dev Env (https://config.dev.youre.id/)
-* Staging (https://config.prepro.youre.id/)
-* Production (https://config.pro.youre.id/)
+* Dev Env (https://idp.dev.youre.id/idp/)
+* Staging (https://idp.prepro.youre.id/idp/)
+* Production (https://idp.pro.youre.id/idp/)
 
 ##  Needed informations
 
