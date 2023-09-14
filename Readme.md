@@ -20,7 +20,7 @@ https://oauth.net/2/pkce/
   * Auth Url: https://auth.youre.id/authorize/
   * Access Token Url: https://auth.youre.id/oauth/token
  
-## Well known urls
+## Well known Urls
 
 * Development: https://dev-youre-id.eu.auth0.com/.well-known/openid-configuration
 * Staging: https://stage-youre-id.eu.auth0.com/.well-known/openid-configuration
