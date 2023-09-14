@@ -10,9 +10,15 @@ https://oauth.net/2/pkce/
 
 ## Endpoints
 
-* Dev Env (https://idp.dev.youre.id/idp/)
-* Staging (https://idp.prepro.youre.id/idp/)
-* Production (https://idp.pro.youre.id/idp/)
+* Development:
+  * Auth Url: https://dev-youre-id.eu.auth0.com/authorize/
+  * Access Token Url: https://dev-youre-id.eu.auth0.com/oauth/token
+* Staging:
+  * Auth Url: https://stage-youre-id.eu.auth0.com/authorize/
+  * Access Token: Url: https://stage-youre-id.eu.auth0.com/oauth/token
+* Production:
+  * Auth Url: https://auth.youre.id/authorize/
+  * Access Token Url: https://auth.youre.id/oauth/token
 
 ##  Needed informations
 
@@ -22,11 +28,14 @@ We need for every Environment all possible callbacks url to ensure that the logi
 
 Once you claimed the token, you'll see those fields. Before claiming the token itself, you will get a id_token, access_token and refresh_token. Those tokens should be saved into a session.
 
+Important token claims:
 ```
 {
-  "sub": "4d685ed0-aea3-44ab-9c40-427a1e5ae2c0", // userId to use
-  "auth_time": 1678783375,
-  "exp": 1678786975,
-  "email": "user@email.com"
+  "terms": true,    //terms of provider accepted
+  "newsletter": false,  // newsletter of provider accepted
+  "username": "WeakMoccasin#3984",  //username 
+  "email": "frank.wanning+23234001002@cloudexcels.com",
+  "email_verified": true,
+  "sub": "d6d932f1-f350-4c90-a59f-0c397ac092e2", // userId to use
 }
 ```
