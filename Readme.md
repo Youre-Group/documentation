@@ -34,8 +34,8 @@ Important token claims:
   "terms": true,    //terms of provider accepted
   "newsletter": false,  // newsletter of provider accepted
   "username": "WeakMoccasin#3984",  //username 
-  "email": "frank.wanning+23234001002@cloudexcels.com",
+  "email": "max.muster@test.com",
   "email_verified": true,
-  "sub": "d6d932f1-f350-4c90-a59f-0c397ac092e2", // userId to use
+  "sub": "d6d932f1-f350-4c90-a34f-0c397ac092e2", // userId to use
 }
 ```
