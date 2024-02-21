@@ -1,4 +1,4 @@
-# Connect API
+# Connect API - Basics
 
 ## Authorization
 
