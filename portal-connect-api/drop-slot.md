@@ -9,7 +9,7 @@
 | `drop-slot/balance` | Allowed to request the current balance of the user |
 | `drop-slot/bet` | Allowed to make a bet for the user |
 | `drop-slot/close` | Allowed to close a round for the user |
-| `drop-slot/item-drop` | Allowed to trigger a item drop for the user |
+| `drop-slot/drop-item` | Allowed to trigger a item drop for the user |
 | `drop-slot/revert` | Allowed to revert the round bet(s) for the user |
 
 ## Error Codes
